@@ -1,0 +1,79 @@
+/*
+font-family: 'Cormorant Garamond', Serif;
+font-size: 55px;
+font-family: 'Fira Sans', Sans-Serif;
+font-size: 15px;
+*/
+
+
+* 
+
+{
+	box-sizing: border-box;
+	
+}
+
+body {
+	width: 50%;
+	font-family: 'helvetica', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+
+		
+}
+
+h1, h2 {
+	text-align: left;
+	font-family: 'Fira Sans', Sans-Serif ;
+	font-weight: bold;
+	
+}
+
+h1 {
+	text-align: center;
+
+	font-size: 90px;
+	margin: 0;
+	writing-mode: horizontal-rl;
+text-orientation: mixed;
+}
+
+h2 {
+	font-size: 30px;
+	text-align: left
+}
+
+h3 {
+	font-size: 30px;
+	text-align: right
+}
+
+h4 {
+	font-size: 30px;
+	text-align: center
+}
+
+h5 {
+	font-size: 30px;
+	text-align: left
+}
+
+h6 {
+	font-size: 30px;
+	text-align: center
+
+}
+
+p {
+	line-height: 32px;
+}
+p1 {
+	line-height: 32px;
+	text-align: right;
+
+}
+
+main {
+
+	margin: auto;
+}
