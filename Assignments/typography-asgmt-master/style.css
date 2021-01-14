@@ -15,7 +15,7 @@ font-size: 15px;
 
 body {
 	width: 50%;
-	font-family: 'helvetica', sans-serif;
+	font-family: 'comic sans ms', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
 
@@ -23,14 +23,18 @@ body {
 }
 
 h1, h2 {
+	text-shadow: 25px 25px;
 	text-align: left;
-	font-family: 'Fira Sans', Sans-Serif ;
+	font-family: 'comic sans ms', Sans-Serif ;
 	font-weight: bold;
+	
 	
 }
 
 h1 {
-	text-align: center;
+	text-shadow: 25px 10px 25px red;
+
+	text-align: right;
 
 	font-size: 90px;
 	margin: 0;
@@ -39,36 +43,52 @@ text-orientation: mixed;
 }
 
 h2 {
-	font-size: 30px;
+	text-shadow: 25px 10px 25px red;
+
+	font-size: 25px;
 	text-align: left
+	
 }
 
 h3 {
-	font-size: 30px;
+	text-shadow: 25px 10px 25px rgba(255, 0, 0, 0.719);
+
+	writing-mode: vertical-rl;
+text-orientation: mixed;
+	font-size: 25px;
 	text-align: right
 }
 
 h4 {
-	font-size: 30px;
-	text-align: center
+	text-shadow: 25px 10px 25px rgb(255, 102, 0);
+	writing-mode: horizontal-rl;
+	text-orientation: mixed;
+	font-size: 25px;
+	text-align: right
 }
 
 h5 {
-	font-size: 30px;
+	text-shadow: 25px 10px 25px rgb(81, 255, 0);
+
+	writing-mode: vertical-rl;
+text-orientation: mixed;
+	font-size: 25px;
 	text-align: left
 }
 
 h6 {
+	text-shadow: 25px 10px 25px rgb(0, 162, 255);
+
 	font-size: 30px;
-	text-align: center
+	text-align: right
 
 }
 
 p {
-	line-height: 32px;
+	line-height: 25px;
 }
 p1 {
-	line-height: 32px;
+	line-height: 325px;
 	text-align: right;
 
 }
