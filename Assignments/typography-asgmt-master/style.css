@@ -13,14 +13,27 @@ font-size: 15px;
 	
 }
 
+
+
 body {
 	width: 50%;
 	font-family: 'comic sans ms', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
-
 		
 }
+
+header {
+	background-image: url(../blocks.jpg);
+	background-size: cover;
+	width: 100vw;
+}
+
+header.grid-header {
+	display: flex;
+	justify-content: space-between;
+}
+
 
 h1, h2 {
 	text-shadow: 25px 25px;
@@ -33,9 +46,7 @@ h1, h2 {
 
 h1 {
 	text-shadow: 25px 10px 25px red;
-
 	text-align: right;
-
 	font-size: 90px;
 	margin: 0;
 	writing-mode: horizontal-rl;
@@ -44,7 +55,6 @@ text-orientation: mixed;
 
 h2 {
 	text-shadow: 25px 10px 25px red;
-
 	font-size: 25px;
 	text-align: left
 	
@@ -52,11 +62,12 @@ h2 {
 
 h3 {
 	text-shadow: 25px 10px 25px rgba(255, 0, 0, 0.719);
-
 	writing-mode: vertical-rl;
-text-orientation: mixed;
+	text-orientation: mixed;
 	font-size: 25px;
 	text-align: right
+
+
 }
 
 h4 {
