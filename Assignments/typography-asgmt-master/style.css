@@ -13,7 +13,14 @@ font-size: 15px;
 	
 }
 
-
+.hero-image {
+	background-image: url("sorj.jpeg"); /* The image used */
+	background-color: #cccccc; /* Used if the image is unavailable */
+	height: 500px; /* You must set a specified height */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+  }
 
 body {
 	width: 50%;
@@ -28,7 +35,6 @@ header {
 	background-size: cover;
 	width: 100vw;
 }
-
 header.grid-header {
 	display: flex;
 	justify-content: space-between;

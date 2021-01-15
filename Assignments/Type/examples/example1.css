@@ -9,13 +9,17 @@ font-size: 15px;
 * {
 	box-sizing: border-box;
 }
-
+body {
+	background-image: url("Sorj.jpeg");
+	background-color: #cccccc;
+   }
 body {
 	font-family: 'Fira Sans', Sans-Serif;
 	font-size: 20px;
 	color: #666;
 	margin: 0;
 }
+
 header {
 	background-image: url(images/sorj.jpeg);
 	background-size: cover;
