@@ -10,22 +10,24 @@ font-size: 15px;
 	box-sizing: border-box;
 }
 body {
-	background-image: url("https://www.massmoments.org/files/assets/moments/10-04-2002/10_04_2002.jpeg");
+	background-image: url("https://www.britannica.com/explore/100women/wp-content/uploads/sites/3/2020/02/sojourner-truth-hero-scaled.jpg");
+
 	background-repeat: no-repeat;
 	background-position: left top;
 	background-attachment: scroll;
-	background-size: 50%; 
+	background-size: 65%; 
+	
    }
 body {
 	font-family: 'arial', Sans-Serif;
 	font-size: 20px;
-	color: rgb(88, 61, 61);
-	margin: 0;
+	color: rgb(70, 70, 70);
+	margin: 500;
 }
 
 header {
 	background-size: cover;
-	width: 100vw;
+	width: 75vw;
 }
 header.grid-header {
 	display: flex;
@@ -34,24 +36,27 @@ header.grid-header {
 
 h1, h2 {
 	font-family: 'Times', Serif;
-	color: rgba(105, 42, 42,);
+	color: rgb(44, 44, 44);
 }
 
 h1 {
 	font-size: 150px;
+	margin-top: 90px ;
+	margin-left: 100px ;
 	font-style:italic;
-	margin-top: 490px;
 	writing-mode: horizontal-rl;
 	text-orientation: mixed;
 	padding: 25px 10px;
 }
 
 h2 {
-	font-size: 55px;
-	font-style:italic;
-	margin-top: 550px;
-	margin-right: 100px;
-	text-align: right;
+	font-size: 40px;
+	font-style:bold;
+	margin-top: 50px;
+	margin-right: 450px;
+	writing-mode: vertical-rl;
+
+	text-align: left;
 	
 }
 
@@ -65,7 +70,8 @@ em {
 
 main {
 	width: 60%;
-	margin: 30px auto;
+	margin-top: 50px ;
+	margin-left: 150px ;
 	padding: 25px 5px;
 
 }
