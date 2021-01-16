@@ -1,3 +1,7 @@
+@font-face {
+  src: url(font/FredokaOne-Regular.ttf);
+  font-family: Fred; 
+}
 * {
   box-sizing: border-box;
 }
@@ -14,16 +18,15 @@ body {
 
 .grid div {
   flex: 1;
-  height: 2000px;
+  height: 1500px;
   background-color: #C0FDFF;
   
 }
 h1 {
-  font-family: 'Gill Sans',sans-serif;
-  font-style: bold;
+  font-family: 'Fred';
 	font-size: 250px;
 	margin-top: 90px ;
-  margin-left: 100px ;
+  margin-left: 190px ;
   color: rgb(245, 205, 255);
 
 }
@@ -66,13 +69,13 @@ h1 {
 
 .parent .two {
   position: fixed;
-  font-family: 'Gill Sans',sans-serif;
+  font-family: 'Fred';
   text-orientation: vertical-rl;
   font-style: bold;
-  top: 200px;
+  top: 90px;
   left: 190px;
   color: rgb(255, 255, 255);
-  font-size: 330px;
+  font-size: 300px;
 }
 
 
